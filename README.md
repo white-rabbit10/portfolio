@@ -4,226 +4,139 @@
   <h1 align="center">Developer's Portfolio ✨</h1>
 
   <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://hashirshoaeb.github.io/home">hashirshoaeb.github.io/home</a>
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
+    <br />
+    <strong>Site URL / Demo » </strong>
+    <a href="https://hashirshoaeb.github.io/portfolio"> hashirshoaeb.github.io/portfolio</a>
     <br />
     <br />
-    <a href="https://hashirshoaeb.github.io">About Me</a>
+    <a href="https://hashirshoaeb.com">About Me</a>
+    ·
+    <a href="https://github.com/hashirshoaeb/portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hashirshoaeb/portfolio/issues">Request Feature</a>
   </p>
 </p>
 
-![GitHub contributors](https://img.shields.io/github/contributors/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
-[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/star_book/network)
-[![GitHub issues](https://img.shields.io/github/issues/hashirshoaeb/home?color=ffcc66&style=for-the-badge)](https://github.com/hashirshoaeb/star_book/issues)
-[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/portfolio?style=for-the-badge)](https://github.com/hashirshoaeb/portfolio/network)
+[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/portfolio?style=for-the-badge)](https://github.com/hashirshoaeb/portfolio/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
-[![Node Version](https://img.shields.io/static/v1?label=Node&message=v18.13.0&color=026e00&style=for-the-badge)](https://nodejs.org)
+[![Node Version](https://img.shields.io/static/v1?label=Node&message=16.16.0&color=026e00&style=for-the-badge)](https://nodejs.org)
 [![npm Version](https://img.shields.io/static/v1?label=npm&message=8.11.0&color=cb0000&style=for-the-badge)](https://nodejs.org)
 
-[![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/home)
 
-## Table of Contents
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
 
-- [Technology Stack 🛠️](#technology-stack-)
-- [Structure ⚓](#structure-)
-- [Sharing 💗](#sharing-)
-- [Prerequisites 🍪](#prerequisites-)
-- [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributing 🙌](#contributing-)
-- [Issues](#issues)
-- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
-- [Showcase 🚀](#showcase-)
-- [Versão em Português :brazil:](#versao-em-portugues-)
 
-## Technology Stack 🛠️
 
-Dependencies defined in package.json:
+<!-- ABOUT THE PROJECT -->
+# About The Project
 
-[Reactjs](https://reactjs.org/)
-| [Bootstrap](https://getbootstrap.com/)
-| [Typist](https://github.com/jstejada/react-typist)
-| [GitHub API](https://developer.github.com/v3/repos/)
-| [Instagram API](https://www.instagram.com/developer/embedding/)
+[![Product Name Screen Shot](/READMEdocs/screenshot.gif)](https://example.com)
 
-## Structure ⚓
+There are many portfolio website templates available on Github, however, I didn't find one that really suit my needs so I created this one. A simple, easy to configure, lightweight, and responsive static portfolio website.
 
-- Navigation bar (optional)
-- Body
-  - Name | Profession
-  - Contact / Follow / Find me / Facebook / LinkedIn / GitHub / Instagram / Email / CodePen
-  - Resume | About me
-- About Me
-  - Display picture (optional)
-  - About myself, my Interests, Goals and Hobbies
-  - Things I'm good at (Skills)
-  - Resume button
-- Recent Projects (using GitHub API) (optional)
-- Leadership (optional)
-  - Paragraph
-  - Carousel images
-- Skills (optional)
-  - Technical Skills
-  - Soft Skills
-- Footer
-  - Footer Note (optional)
-  - Copyrights - open source
-  - Acknowledgements(
+I know one template doesn't fulfill everyone's needs. So I'll try adding more features in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
-## Sharing 💗
+**Features**
 
-Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
+- [x] Easy to configure
+- [x] SEO friendly
+- [x] Responsive
+- [x] Lightweight
+- [x] Linktree Page
 
-## Prerequisites 🍪
+**Built with** [Nextjs](https://nextjs.org/) & [Bootstrap5](https://getbootstrap.com).
 
-You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
 
-## Setup And Deployment 🔧
 
-1. To Get Started, Fork this repository to your GitHub account:
-2. Clone the forked repo from your account using:
+<!-- GETTING STARTED -->
+# Getting Started
 
-   ```bash
-     git clone https://github.com/<your-username>/home.git
-   ```
+Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below. Please feel free to reach out to me by filing an [issue](https://github.com/hashirshoaeb/portfolio/issues) or emailing me at hashirshoaeb@gmail.com for help configuring your project.
 
-3. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
+## Prerequisites
 
-4. Add your resume as <resume.pdf> in place of [src/editable-stuff/resume.pdf](./src/editable-stuff/)
+You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/downloads) installed on your PC. You should also own a GitHub account.
 
-5. Edit [title](./public/index.html#L34) and meta [description](./public/index.html#L13) in [public/index.html](./public/index.html).
-6. Change URL in [package.json](./package.json) file:
+## Setup
 
-   ```json
-    "homepage": "https://<your-username>.github.io/home"
-   ```
+1. Fork this repoistory and clone it to your local machine.
+    ```sh
+      git clone https://github.com/<your-username>/portfolio.git
+    ``` 
 
-   Or for deployment at custom domain, refer [create-react-app.dev](https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson)
+2. Edit the [config/config.js](https://github.com/hashirshoaeb/portfolio/blob/main/config/config.js) file. Replace [config/profile.png](https://github.com/hashirshoaeb/portfolio/blob/main/config/profile.png) with your image. 
+    >Note: You need to rename your image file as `profile.png`.
 
-7. After editing run the following bash commands:
+3. Run following scripts in terminal/command prompt to install dependencies.
+    ```sh
+      npm install
+      npm run build
+    ```
+## Testing
 
-   ```bash
-   npm install
-   npm start
-   ```
+1. To test on your local server, run the following command:
+    ```sh
+      npm run dev
+    ```
 
-8. To deploy website, run:
+2. Open the browser to http://localhost:3000/
 
-   ```bash
-    npm run build
-    npm run deploy
-   ```
+## Deployment
 
-   Or for deployment at \<username>.github.io, refer [READMEdocs/custom-deployment.md](./READMEdocs/custom-deployment.md) and [pages.js](./pages.js)
+If it works locally, you can deploy your project to GitHub Pages. GitHub Pages provides two types of free domains, `<username>.github.io` and `<username>.github.io/<repository>`. You can choose the one that suits your needs. You can learn more about domain types from [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
 
-9. Congrats your site is up and running. To see it live, visit:
+### Deploy to \<your-username>.github.io/portfolio
 
-   ```https
-     https://<your-username>.github.io/home
-   ```
+Simply you just need to commit and push your changes to github. And [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#overview) will take care of the deployment. Your site will be available at `https://<your-username>.github.io/portfolio`
 
-10. To change the thumbnail image:
+### Deploy to \<your-username>.github.io
 
-    - Navigate to the "public" folder.  
-    - There you will see "social-image.png".  
-    - Delete it.   
-    - Take a screenshot of your version and rename it "social-image.png" and place it there.  
-    
-   Next time if you make changes, repeat from step 8.
+Create a new repository with your username as `<your-username>.github.io`. And let the following command do the job for you.
 
-Facing issues? Feel free to contact at hashirshoaeb@gmail.com.
+```sh
+  npm run predeploy
+  node scripts/pages.js <your-username> master
+```
 
-## Showcase 🚀
+Your site will be available at `https://<your-username>.github.io`
 
-Have you changed something in the code to create your own version? Feel free to share with me, I will list them in this space.
+>Note: You need to replace `<your-username>` with your username. To add CNAME for custom domain, see [scripts/cname.js](https://github.com/hashirshoaeb/portfolio/blob/main/scripts/cname.js)
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/justiceserv/justiceserv.github.io">
-        <img src="READMEdocs/justiceserv-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Guhyun Chung</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/hamzasohail0/home/">
-        <img src="READMEdocs/hamzasohail0-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Hamza Sohail</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/AymunTariq/home/">
-        <img src="READMEdocs/aymuntariq-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Aymun Tariq</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/anaashrafi/home/">
-        <img src="READMEdocs/anaashrafi-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Ana Ashrafi</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/jefferyjohn/home/">
-        <img src="READMEdocs/jefferyjohn-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Jeffery John</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/remimestdagh/home/">
-        <img src="READMEdocs/remimestdagh-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Remi Mestdagh</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-    <tr>
-    <td align="center">
-      <a href="https://github.com/xunxdd/portfolio/tree/master">
-        <br />
-        <sub><b>Xun Ding</b></sub>
-      </a>
-      <br />
-    </td>    
-    <td align="center">
-      <a href="https://github.com/S-Philp/Shannel.philp">
-        <br />
-        <sub><b>Shannel Philp</b></sub>
-      </a>
-      <br />
-    </td>    
-    <td align="center">
-      <a href="https://github.com/bibinvargheset/home">
-        <br />
-        <sub><b>Bibin Varghese</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-</table>
 
-## Versão em Português :brazil:
 
-Esse projeto foi traduzido para português! Se você gostou dele e quer criar a sua própria versão, confira o repositório do [@tashima42](https://github.com/tashima42) em [https://github.com/Tashima42/home](https://github.com/Tashima42/home).
-Novas contribuições e revisões na tradução são muito bem vindas!
+<!-- CONTRIBUTING -->
+# Contributing
 
-## Notice:
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contribution you make would be **appreciated**.
 
-This project has been archived. Means that it is no longer actively maintained by developer. Free free to fork, use and maintain your own version. You can check my new portfolio template [here](https://github.com/hashirshoaeb/portfolio)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/hashirshoaeb/home.svg)](https://starchart.cc/hashirshoaeb/home)
+
+<!-- LICENSE -->
+# License
+
+Distributed under the `MIT` License. See [LICENSE](https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE) for more information.
